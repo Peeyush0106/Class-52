@@ -1,0 +1,111 @@
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+a, img, button, li, p, h1, h2, h3, h4, h5, h6 {
+    transition: transform .2s;
+}
+
+a:hover, img:hover, button:hover, li:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    transform: scale(1.08);
+}
+
+#name {
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: #90ee90;
+    color: #ff0000;
+    display: flex;
+}
+
+.header {
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: #90ffff;
+    display: flex;
+    margin: 0.5%;
+}
+
+#links {
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: #ffaaaa;
+    display: flex;
+    margin: 0.5%;
+}
+
+a {
+    text-decoration: none;
+    border: solid black;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link {
+    color: #00f;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+#game-links {
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: #6b8e23;
+    display: flex;
+    margin: 0.5%;
+}
+
+hr {
+    opacity: 1;
+    height: 5px;
+    background-color: #000000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.social-icons {
+    text-align: right;
+    display: flex;
+    transition: transform .2s;
+    transform: scale(.7);
+}
+
+.social-icon {
+    text-align: right;
+    transition: transform .2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+}
+
+.library-list {
+    border: solid;
+    border-radius: 20px;
+    background-color: #ffff00;
+    color: #ff0000;
+    display: flex;
+    padding-left: 35%;
+}
+
+#fb {
+    background-color: #ff0000;
+}
+
+#insta {
+    background-color: #00ff00;
+}
+
+#youtube {
+    background-color: #ffffff;
+}
